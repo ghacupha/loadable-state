@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaosiyang/loadable-state.git"
+    "url": "git+https://github.com/ghacupha/loadable-state.git"
   },
   "keywords": [
     "loadable",
@@ -23,12 +23,12 @@
     "state",
     "Angular"
   ],
-  "author": "Siyang Kern Zhao",
-  "license": "ISC",
+  "author": "Siyang Kern Zhao and the loadable-state contributors",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhaosiyang/loadable-state/issues"
+    "url": "https://github.com/ghacupha/loadable-state/issues"
   },
-  "homepage": "https://github.com/zhaosiyang/loadable-state#readme",
+  "homepage": "https://github.com/ghacupha/loadable-state#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
   }
