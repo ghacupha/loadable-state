@@ -2,14 +2,15 @@
   "name": "loadable-state-pattern",
   "version": "0.0.7-SNAPSHOT",
   "description": "Hanldle API call redux state with Loadable",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "src/index.js",
   "files": [
-    "lib/**/*"
+    "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "release": "git push && git push --tags && npm publish",
+    "release:patch": "npm version patch -a -m \"Update to %s\" && npm run release",
+    "release:minor": "npm version minor -a -m \"Update to %s\" && npm run release",
+    "release:major": "npm version major -a -m \"Update to %s\" && npm run release"
   },
   "repository": {
     "type": "git",
