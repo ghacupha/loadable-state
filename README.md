@@ -1,11 +1,6 @@
-## Loadable-State
+## Loadable-State-Pattern
 
-This package is to help you model http request state. It's an add-on to redux/ngrx
-
-### Why use this package?
-Reduce boilerplate and better code.
-
-I wrote details in this 5-min blog: https://blog.angularindepth.com/handle-api-call-state-nicely-445ab37cc9f8 
+This add-on to redux/ngrx is a clone of https://github.com/zhaosiyang/loadable-state with a newer typescript version and a few more state variables
 
 ### Install
 
