@@ -1,6 +1,6 @@
 {
   "name": "loadable-state-pattern",
-  "version": "0.0.4-SNAPSHOT",
+  "version": "0.0.7-SNAPSHOT",
   "description": "Hanldle API call redux state with Loadable",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
