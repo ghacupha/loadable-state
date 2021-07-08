@@ -1,12 +1,13 @@
 {
   "name": "loadable-state-pattern",
-  "version": "0.0.9-SNAPSHOT",
+  "version": "0.0.1",
   "description": "Handle API call redux state with Loadable",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
+    "build": "tsc",
     "release": "git push && git push --tags && npm publish",
     "release:patch": "npm version patch -a -m \"Update to %s\" && npm run release",
     "release:minor": "npm version minor -a -m \"Update to %s\" && npm run release",
