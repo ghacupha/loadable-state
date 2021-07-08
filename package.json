@@ -1,7 +1,7 @@
 {
   "name": "loadable-state-pattern",
   "version": "0.0.9-SNAPSHOT",
-  "description": "Hanldle API call redux state with Loadable",
+  "description": "Handle API call redux state with Loadable",
   "main": "src/index.js",
   "files": [
     "src"
